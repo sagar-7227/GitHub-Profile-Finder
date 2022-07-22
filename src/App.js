@@ -18,7 +18,7 @@ function App() {
 
   // get the data from the store
   const store = useSelector((state) => state?.repos);
-  const { loading, profileLoading, reposList, profile, error } = store;
+  const { loading, reposList, profile, error } = store;
 
   return (
     <>
