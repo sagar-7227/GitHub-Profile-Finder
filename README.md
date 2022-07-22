@@ -1,5 +1,10 @@
 # GitHub-Finder
-[![Netlify Status](https://api.netlify.com/api/v1/badges/5471e49e-7d6b-4a58-bf1c-c84cbd476c53/deploy-status)](https://app.netlify.com/sites/sagar-github-finder/deploys)
+
+<p align="center">
+<img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
+<img src="https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white"/>
+<img src="https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7"/>
+</p>
 
 This Site gave the overview of a developer on Github with details like Name, Bio , Company, Location, Followers and List of all the repos he/she is working or developing.
 
