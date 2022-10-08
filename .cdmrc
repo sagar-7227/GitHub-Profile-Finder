@@ -1,0 +1,5 @@
+tabs: ['src/App.js']
+live-reload-browser: true
+terminal-one: |
+    yarn install
+    yarn start
