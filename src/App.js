@@ -11,6 +11,7 @@ function App() {
 
   // dispatch
   const dispatch = useDispatch();
+  
   useEffect(() => {
     dispatch(fetchReposAction(user));
     dispatch(fetchProfileAction(user));
