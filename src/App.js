@@ -4,7 +4,7 @@ import imgPic from "./img/pic.svg";
 import {
   fetchProfileAction,
   fetchReposAction,
-} from "./redux/slices/githubSlices";
+} from "./redux/slices/githubSlices.js";
 
 function App() {
   const [user, setUser] = useState("sagar-7227");

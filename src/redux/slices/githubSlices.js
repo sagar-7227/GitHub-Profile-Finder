@@ -17,7 +17,7 @@ async(user, { rejectWithValue, getState , dispatch})=>{
         const {data} = await axios.get(`https://api.github.com/users/${user}/repos?per_page=30&sort=asc`,
         config);
 
-
+        console.log(data);
         return data;
 
     } catch (error) {
@@ -37,6 +37,8 @@ async(user, { rejectWithValue, getState , dispatch})=>{
         // make http call
         const {data} = await axios.get(`https://api.github.com/users/${user}`,
         config);
+
+        console.log(data)
 
         return data;
 
